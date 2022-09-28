@@ -1,0 +1,117 @@
+*{
+  margin: 0 auto;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+
+
+}
+
+#menu-h ul li:last-child a {
+    
+  background-color:red
+}
+
+#texto1{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+  
+}
+
+#texto2{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  display: inline;
+
+}
+#contato{
+  width: 100%;
+  display: inline;
+}
+#chef{
+    width: 600px;
+    display: inline-block;
+
+}
+.direita{
+  float: right;
+  width: 40%;
+  margin-right: 150px;
+  margin-top: 1px;
+  padding: 10px;
+  line-height: 35px;
+
+
+}
+#menu-h{
+   
+  background-color: black;
+}
+#menu-h ul {
+  max-width: 800px;
+  list-style: none;
+  padding: 0;
+}
+#menu-h ul li {
+  display: inline;
+}
+#menu-h ul li a {
+  color: #FFF;
+  padding: 20px;
+  display: inline-block;
+  text-decoration: none;
+  transition:background.5s;
+}
+#menu-h ul li a:hover {
+  background-color: red
+}
+
+.logo-menu{
+  width: 20%;
+  height: 20%;
+  text-align: center;
+}
+
+
+@media screen and (min-width:375px) and (max-height: 667px){
+  .direita{
+    float: right;
+    margin-right: 1%;
+    width: 90%;
+    line-height: 20px;
+
+  }
+}
+@media screen and (min-width:375px) and (max-height: 667px){
+  .foto {
+    padding-top: 20px;
+    width: 100%;
+    border-radius: 10px;
+  }
+}
+@media(max-width:375px){
+  #menu-h ul li{
+      display: flex;
+      background-color: rgb(37, 37, 39);
+      flex-direction: column;
+  }
+  #fundo{
+      width: 100%;
+      height: 100%;
+      background-color: gray;
+      
+  }
+  .logo-menu{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 90px;
+      width: 90px;
+  }
+  #menu-h ul li:hover {
+      background-color: red;
+      transition:background.5s;
+  }
+}
+

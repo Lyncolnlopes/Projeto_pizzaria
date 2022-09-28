@@ -1,0 +1,112 @@
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+
+}
+#fundo{
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Imagem/fundo-liso.png);
+   
+    width: 100%;
+    height: 100%;
+}
+#menu-h{
+   
+    background-color: black;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:background.5s;
+}
+#menu-h ul li a:hover {
+    background-color: red
+}
+#menu-h ul li:last-child a {
+    
+    background-color:red
+}
+.logo-menu{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+.titulo{
+    text-align:center;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-style: italic;
+    color: #FFD700;
+}    
+.img-contato{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 18px;
+    
+
+}
+.img{
+    width: 80%;
+    height: 20%;
+    border-radius: 15px;
+}
+.img-delivery{
+    display: flex;
+    width: 80%;
+    height: 20%;
+    border-radius: 15px;
+}
+
+@media(max-width:375px){
+  #fundo{
+    display: inline-block;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../Imagem/fundo-liso.png);
+    width: 100%;
+    height: 100%;
+  }
+}
+@media(max-width:375px){
+    #menu-h ul li{
+        display: flex;
+        background-color: rgb(37, 37, 39);
+        flex-direction: column;
+    }
+    #fundo{
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        
+    }
+    .logo-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        width: 90px;
+    }
+    #menu-h ul li:hover {
+        background-color: red;
+        transition:background.5s;
+    }
+    
+  
+}

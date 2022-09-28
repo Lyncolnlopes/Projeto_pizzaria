@@ -1,0 +1,121 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+  
+
+}
+#menu-h{
+   
+    background-color: black;
+}
+#menu-h ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#menu-h ul li {
+    display: inline;
+}
+#menu-h ul li a {
+    color: #FFF;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition:background.5s;
+}
+#menu-h ul li a:hover {
+    background-color: red
+}
+#menu-h ul li:last-child a {
+    
+    background-color:red
+}
+
+.logo-menu{
+    width: 20%;
+    height: 20%;
+    text-align: center;
+}
+#fundo{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    
+}
+.titulo{
+    text-align:center;
+    text-decoration: underline;
+    padding-top: 20px;
+    font-style: italic;
+    color: #FFD700;
+}
+.img-promo{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 70%;
+    height: 500px;
+    border-radius: 10px;
+}
+#rodape{
+    display: flex;
+    background-color: red;
+    width: 100%;
+    height: 30vw;
+    text-align: center;
+}
+.fundo-rodape{
+    display: flex;
+    width: 100vw;
+    height: 30vw;
+    
+}
+
+
+@media(max-width:375px){
+    #menu-h ul li{
+        display: flex;
+        background-color: rgb(37, 37, 39);
+        flex-direction: column;
+    }
+    #fundo{
+        width: 100%;
+        height: 100%;
+        background-color: gray;
+        
+    }
+    .logo-menu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 90px;
+        width: 90px;
+    }
+    #menu-h ul li:hover {
+        background-color: red;
+        transition:background.5s;
+    }
+    
+  
+}
+@media(max-width:375px){
+    .titulo{
+        justify-content: center;
+        font-size: 15px;
+        text-align:center;
+        text-decoration: underline;
+        padding-top: 20px;
+        font-style: italic;
+        color: #FFD700;
+    }
+    .img-promo{
+        display: flex;
+        width: 100%;
+        height: 50%;
+    }
+    #fundo{
+        background-color: #000;
+    }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="css/cadastro.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <h1>Cadastre-se</h1>
+            <div id="msgError"></div>
+            <div id="msgSucesso"></div>
+                <div class="logar">
+                    <input type="text" id="login" placeholder="" required>
+                    <label  id="labellogin" for="login">login</label>
+                </div>
+
+                <div class="logar">
+                    <input type="password" id="senha" placeholder="" required>
+                    <label id="labelsenha"for="senha">Senha</label>
+                    
+                    <i id="verSenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                <div class="logar">
+                    <input type="password" id="confirmarsenha" placeholder="" required>
+                    <label id="label-confirmar-senha" for="confimarsenha">Confirmar senha</label>
+
+                    <i id="verconfirmarsenha" class="fa fa-eye" aria-hidden="true"></i>
+                </div>
+
+                    
+
+                <div class="botao-entrar">
+                    <button onclick='cadastrar()'>Cadastar</button>
+                </div>
+
+                                    
+                <p>Já possui uma conta?<a href="login.html">Logar</a></p>
+                        
+                    
+        </div>
+
+    </div>
+    <script src="cadastrar.js"></script>
+   
+</body>
+</html>
