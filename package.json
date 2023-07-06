@@ -1,0 +1,27 @@
+{
+  "name": "projeto_pizzaria",
+  "version": "1.0.0",
+  "description": "Projeto acadêmico utilizando HMTL5,CSS3 E JAVASCRIPT",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lyncolnlopes/Projeto_pizzaria.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lyncolnlopes/Projeto_pizzaria/issues"
+  },
+  "homepage": "https://github.com/Lyncolnlopes/Projeto_pizzaria#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "handlebars": "^4.7.7",
+    "nodemon": "^2.0.22"
+  }
+}

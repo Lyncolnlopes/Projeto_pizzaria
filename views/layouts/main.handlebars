@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/CSS/cadastro.css">
+    <link rel="stylesheet" href="/CSS/cardapio.css">
+    <link rel="stylesheet" href="/CSS/contato-style.css">
+    <link rel="stylesheet" href="/CSS/login.css">
+    <link rel="stylesheet" href="/CSS/home.css">
+    <link rel="stylesheet" href="/CSS/menu.css">
+    <link rel="stylesheet" href="/CSS/quem-somos.css">
+    
+</head>
+
+<body>
+
+
+    <header id="header">
+        <div class="div-logo">
+            <a id="logo" href=""> <img src="/img/logo_pizza.png" class="logo" alt=""> </a>
+        </div>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu"
+                aria-expanded="false">Menu
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li class="nav-item"> <a href="/">Home</a></li>
+                <li class="nav-item"><a href="/views/cardapio.handlebars">Nosso cardápio</a></li>
+                <li class="nav-item"><a href="/views/quem-somos.handlebars">Quem somos</a></li>
+                <li class="nav-item"><a href="/views/contato.handlebars">Contato</a></li>
+                <li class="nav-item"><a href="/views/login.handlebars">Logar</a></li>
+            </ul>
+        </nav>
+    </header>
+    <script src="/js/menu.js"></script>
+
+    <main>
+        {{{body}}}
+    </main>
+
+
+    <footer id="rodape">
+
+
+
+    </footer>
+
+
+
+</body>
+
+</html>

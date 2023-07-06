@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ms Modi', cursive,sans-serif ;
+}
+body{
+    background-image: url(../img/fundo7.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px ;
+    height: 100%;
+  
+}
+.card{
+    background-color: #ffffff75;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 1px 0 #00000090;
+    width: 20%;
+    height: 30em;
+
+}
+h1{
+    text-align: center;
+    margin-top: 1.25em;
+    color: rgb(89, 38, 2);
+}
+.logar input{
+    width: 100%;
+    padding: 5px 5px;
+    display: inline-block;
+    border: 0;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    outline: none;
+    min-width: 180px;
+    font-size: 1em;
+    transition: all .3s ease-out;
+    border-radius: 0;
+    
+}
+
+.logar{
+    position: relative;
+    padding-top: 13px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    
+}
+
+.logar input:focus{
+    border-bottom: 2px solid rgb(41, 186, 212);
+}
+
+.logar label{
+    color: rgb(89, 38, 2);
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 13px;
+    transition: all .3s ease-out;
+    font-weight: bold;
+    
+}
+.logar input:focus + label, .logar input:valid +label{
+    font-size: 13px;
+    margin-top: 0;
+    color: rgb(41, 186, 212);
+    
+    
+}
+
+
+button{
+    background-color: transparent;
+    border-color:rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    padding: 7px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 44px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    transition: all .5s ease-out;
+}
+button:hover{
+    background-color:rgb(89,38,2);
+    color: aliceblue;
+
+}
+.botao-entrar{
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    color: rgb(89,38,2);
+    font-size: 14px;
+    text-align: center;
+    
+}
+a{
+    margin-left: 5px;
+    color: rgb(239, 16, 16);
+    font-weight: bold;
+    text-decoration: none;
+    transition: all .4s ease-out;
+    font-size: 17px;
+}
+a:hover{
+    color: orange;
+}
+.fa-eye{
+    position: absolute;
+    top: 22px;
+    right: 10px;
+    cursor: pointer;
+    color: rgb(41, 0, 0);
+}
+#msgError{
+    text-align: center;
+    color: #ff0000;
+    background-color: #ffbbbb;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
+#msgSucesso{
+    text-align: center;
+    color: #00bb00;
+    background-color: #bbffbe;
+    padding: 10px;
+    border-radius: 4px;
+    display: none;
+}
